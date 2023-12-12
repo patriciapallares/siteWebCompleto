@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlaces a los archivos CSS de Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e2e2a6b09e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>IES Álvaro Falomir × Erasmus+</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.iesalvarofalomir.es/">
+            <img
+              src="../images/logo_IESAF.png"
+              alt="Logo del Instituto"
+              class="img-fluid me-3"
+              style="max-width: 50px"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  ><i class="fa-solid fa-house"></i
+                ></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tipus
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li class="dropdown dropend">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown2"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Profesors
+                    </a>
+
+                    <ul
+                      class="dropdown-menu dropend"
+                      aria-labelledby="navbarDropdown2"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="/profesores/cursos.html"
+                          >Cursos</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/profesores/jobshadowing.html"
+                          >Job shadowing</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/profesores/estanciasform.html"
+                          >Estàncies de formació</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li class="dropdown dropend">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown3"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Estudiants
+                    </a>
+
+                    <ul
+                      class="dropdown-menu dropend"
+                      aria-labelledby="navbarDropdown3"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/estudiantes/estanciasformest.html"
+                          >Estàncies de formació</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/estudiantes/estanciaspractest.html"
+                          >Estàncies de pràctiques</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Països
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li>
+                    <a class="dropdown-item" href="/paises/irlanda.html"
+                      >Irlanda</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="/paises/islandia.html"
+                      >Islàndia</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="/paises/turquia.html"
+                      >Turquia</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiencias.html">Experiències</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prensa.html">Premsa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacte</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menuIdiomas">
+            <div class="btn-group">
+              <button
+                class="btn btn-dark btn-sm dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Idioma
+              </button>
+              <ul class="dropdown-menu dropdown-menu-lg-end">
+                <li>
+                  <a class="dropdown-item active disabled" href="#">Español</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Valencià</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="indexEN.html">English</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="p-5 m-5 bg-white text-dark text-center">
+        <h1>IES Álvaro Falomir × Erasmus+</h1>
+        <p>
+          Benvingut a lInstitut. Descobriu un món d'oportunitats educatives amb
+          el programa Erasmus+!
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container mt-2">
+        <div class="row mb-5">
+          <div class="col-sm-4">
+            <h2>Sobre l'Institut:</h2>
+            <img
+              class="img-thumbnail img-fluid mt-5"
+              src="/images/imagenCentro.jpg"
+              alt=""
+            />
+            <p class="mt-4" style="line-height: 2rem">
+              L'IES Álvaro Falomir és una institució compromesa amb la
+              excel·lència educativa, oferint una àmplia gamma de programes i
+              recursos per al desenvolupament integral dels estudiants. El
+              nostre enfocament se centra a brindar una educació de qualitat,
+              fomentant el creixement acadèmic i personal.
+            </p>
+
+            <p style="line-height: 2rem">
+              Coneix més sobre la nostra institució
+              <a
+                class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                href="https://www.iesalvarofalomir.es/"
+                >aquí</a
+              >
+            </p>
+            <!-- <h3 class="mt-4">Síguenos en redes</h3>
+                      <p>Lorem ipsum dolor sit ame.</p>
+                      <ul class="nav nav-pills flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link active" href="#">Active</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link disabled" href="#">Disabled</a>
+                          </li>
+                      </ul> -->
+            <hr class="d-sm-none" />
+          </div>
+          <div class="col-sm-8">
+            <h2 style="padding: 0">Explora el nostre Institut:</h2>
+            <div
+              id="demo"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              style="margin: 50px 0"
+            >
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="4"
+                ></button>
+              </div>
+
+              <main class="bg-dark">
+                <div
+                  class="carousel-inner text-center"
+                  style="max-height: 75vh"
+                >
+                  <div class="carousel-item active">
+                    <img
+                      class="img_carousel"
+                      src="/images/alumnes.jpg"
+                      alt="Chicago"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="img_carousel"
+                      src="/images/genere-1.jpeg"
+                      alt="New York"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="img_carousel"
+                      src="/images/imagenCentro.jpg"
+                      alt="New York"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="img_carousel"
+                      src="/images/obres.jpeg"
+                      alt="New York"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="img_carousel"
+                      src="/images/obras3.jpg"
+                      alt="New York"
+                      class="d-block w-100"
+                    />
+                  </div>
+                </div>
+              </main>
+            </div>
+
+            <p style="line-height: 2rem">
+              Et convidem a ser part de la nostra comunitat educativa! Obtingues
+              més informació sobre les nostres instal·lacions, activitats i com
+              participar al programa Erasmus+.
+            </p>
+
+            <p style="line-height: 2rem">
+              L'IES Álvaro Falomir és una institució compromesa amb la
+              excel·lència educativa, oferint una àmplia gamma de programes i
+              recursos per al desenvolupament integral dels estudiants. El
+              nostre enfocament se centra a brindar una educació de qualitat,
+              fomentant el creixement acadèmic i personal.
+            </p>
+
+            <p style="line-height: 2rem">
+              Contacta'ns per a més detalls o consulta a la nostra
+              <a
+                class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                href="contacte.html"
+                >pàgina de contacte</a
+              >.
+            </p>
+
+            <h2 class="mt-5">Programa Erasmus+:</h2>
+            <img
+              class="img-thumbnail img-fluid mt-4"
+              src="/images/erasmus.jpg"
+              alt=""
+            />
+
+            <p style="line-height: 2rem" class="mt-5">
+              El programa Erasmus+ és una oportunitat única per als nostres
+              alumnes i professors. Oferim experiències d'intercanvi educatiu en
+              col·laboració amb institucions de tot el món. Aquesta iniciativa
+              promou l'aprenentatge multicultural, l'entesa global i enriquiment
+              personal.
+            </p>
+
+            <!-- TODO: MEJORA. SABER MÁS (¿Y QUE MUESTRE COSAS?) -->
+
+            <p style="line-height: 2rem">
+              Erasmus+ és un programa de la Unió Europea (UE) que té com
+              objectiu principal fomentar l'educació, la formació, la joventut i
+              esport a Europa. Aquest programa ofereix oportunitats de mobilitat
+              i cooperació entre institucions educatives, organitzacions
+              juvenils i esportives, així com també entre estudiants, personal
+              docent, joves i esportistes.
+            </p>
+
+            <p style="line-height: 2rem">
+              Erasmus+ dóna suport a una àmplia gamma d'activitats, incloent-hi
+              intercanvis d'estudiants, passanties, programes d'estudis a
+              estranger, projectes de cooperació entre institucions educatives,
+              programes de voluntariat, projectes de capacitació per a personal
+              docent, iniciatives per millorar la qualitat de la educació i molt
+              més.
+            </p>
+
+            <p style="line-height: 2rem">
+              El programa té com a objectiu promoure la mobilitat transnacional,
+              l'aprenentatge intercultural, el desenvolupament de habilitats, la
+              inclusió social, la innovació i la cooperació internacional a
+              l'àmbit educatiu i juvenil. Erasmus+ està dirigit tant a joves com
+              a professionals en el camp de la educació, formació, joventut i
+              esport.
+            </p>
+
+            <p style="line-height: 2rem">
+              Al llarg dels anys, Erasmus+ ha brindat oportunitats a milions de
+              persones per viure experiències a l'estranger, millorar les seves
+              habilitats lingüístiques, conèixer noves cultures i enriquir-ne el
+              desenvolupament personal i professional.
+            </p>
+
+            <p style="line-height: 2rem">
+              Descobreix més sobre el programa Erasmus+ a la
+              <a
+                class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                href="https://erasmus-plus.ec.europa.eu/ca"
+                >web oficial</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-white text-secondary text-center mt-5 p-5"
+      style="border-top: 1px solid lightgray"
+    >
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-5 text-center mb-md-0 mb-3">
+            <p style="font-size: small">
+              &copy; 2023 Patricia Pallarés Gonzàlez
+            </p>
+            <p style="font-size: small">IES Àlvaro Falomir</p>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <p style="font-size: small">Segueix-nos en xarxes socials:</p>
+            <div
+              class="container-fluid d-flex flex-row justify-content-between"
+            >
+              <div class="red-social">
+                <a
+                  class="text-secondary"
+                  href="enlace-a-red-social"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </div>
+              <div class="red-social">
+                <a
+                  class="text-secondary"
+                  href="enlace-a-red-social"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+              <div class="red-social">
+                <a
+                  class="text-secondary"
+                  href="enlace-a-red-social"
+                  target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Agregar más redes sociales si es necesario -->
+          </div>
+          <div class="col-md-5 text-center">
+            <div class="container">
+              <div class="row row-cols-4 mt-3">
+                <div class="col">
+                  <img
+                    src="/images/logo_IESAF.png"
+                    alt="Logo del Instituto"
+                    class="img-fluid"
+                    style="max-width: 70px"
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    src="/images/logo_CV.png"
+                    alt="Logo de la Comunidad Valenciana"
+                    class="img-fluid"
+                    style="max-width: 70px"
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    src="/images/logo_UE.png"
+                    alt="Logo de la Unión Europea"
+                    class="img-fluid"
+                    style="max-width: 70px"
+                  />
+                </div>
+
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="/images/erasmus.jpg"
+                    alt=""
+                    style="max-width: 90px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Enlaces a los archivos JS de Bootstrap (jQuery y Popper.js son necesarios para Bootstrap 5) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // Script para prevenir que el menú padre se cierre al hacer clic en el submenú
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+      dropdownMenu.addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
+    </script>
+  </body>
+</html>
